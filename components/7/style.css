@@ -1,0 +1,317 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+.text-page article + .comments-area {
+    margin-top: 40px;
+}
+.text-page h1:first-child,
+.comment-text h2:first-child,
+.text-page h2:first-child,
+.comment-text h3:first-child,
+.text-page h3:first-child,
+.comment-text h4:first-child,
+.text-page h4:first-child,
+.comment-text h5:first-child,
+.text-page h5:first-child,
+.comment-text h6:first-child,
+.text-page h6:first-child {
+    margin-top: 0;
+}
+.comment-text ul li,
+.text-page ul li {
+    margin-bottom: 6px;
+}
+.comment-text h1,
+.text-page h1 {
+    margin-bottom: 16px;
+}
+.comment-text h1 + h2,
+.text-page h1 + h2,
+.comment-text h1 + h3,
+.text-page h1 + h3,
+.comment-text h1 + h4,
+.text-page h1 + h4,
+.comment-text h1 + h5,
+.text-page h1 + h5,
+.comment-text h1 + h6,
+.text-page h1 + h6,
+.comment-text h2 + h3,
+.text-page h2 + h3,
+.comment-text h2 + h4,
+.text-page h2 + h4,
+.comment-text h2 + h5,
+.text-page h2 + h5,
+.comment-text h2 + h6,
+.text-page h2 + h6,
+.comment-text h3 + h4,
+.text-page h3 + h4,
+.comment-text h3 + h5,
+.text-page h3 + h5,
+.comment-text h3 + h6,
+.text-page h3 + h6,
+.comment-text h4 + h5,
+.text-page h4 + h5,
+.comment-text h4 + h6,
+.text-page h4 + h6,
+.comment-text h5 + h6,
+.text-page h5 + h6 {
+    margin-top: 0;
+}
+.comment-text hr,
+.text-page hr {
+    margin: 30px 0 26px;
+}
+.comment-text hr + h1,
+.text-page hr + h1,
+.comment-text hr + h2,
+.text-page hr + h2,
+.comment-text hr + h3,
+.text-page hr + h3 {
+    margin-top: 30px;
+}
+.comment-text dl dd,
+.text-page dl dd {
+    margin: 0 0 10px 20px;
+}
+.comment-text ol ul,
+.text-page ol ul,
+.comment-text ul ul,
+.text-page ul ul,
+.comment-text ol ol,
+.text-page ol ol,
+.comment-text ul ol,
+.text-page ul ol {
+    margin-top: 6px;
+}
+.comment-text dt,
+.text-page dt {
+    font-weight: 700;
+}
+.comment-text p,
+.text-page p {
+    margin-bottom: 30px;
+}
+.comment-text kbd,
+.text-page kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.comment-text code,
+.text-page code,
+.comment-text kbd,
+.text-page kbd,
+.comment-text pre,
+.text-page pre,
+.comment-text samp,
+.text-page samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+.comment-text abbr[title],
+.text-page abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+.comment-text .tags-short,
+.text-page .tags-short {
+    border-top: 1px solid var(--gray);
+    margin-top: 16px;
+    padding-top: 16px;
+}
+.comment-text img.left,
+.text-page img.left {
+    margin: 9px 30px 15px 0;
+    float: left;
+}
+@media (max-width: 991px) {
+    .comment-text img.size-full,
+    .text-page img.size-full {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+.comment-text table:not(#wp-calendar):not(.variations),
+.text-page table:not(#wp-calendar):not(.variations) {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) th,
+.text-page table:not(#wp-calendar):not(.variations) th,
+.comment-text table:not(#wp-calendar):not(.variations) td,
+.text-page table:not(#wp-calendar):not(.variations) td {
+    padding: 20px 32px;
+    font-size: 16px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) thead tr:first-child th:first-child,
+.text-page table:not(#wp-calendar):not(.variations) thead tr:first-child th:first-child {
+    -webkit-border-top-left-radius: 24px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius-topleft: 24px;
+    -moz-background-clip: padding;
+    border-top-left-radius: 24px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) thead tr:first-child th:last-child,
+.text-page table:not(#wp-calendar):not(.variations) thead tr:first-child th:last-child {
+    -webkit-border-top-right-radius: 24px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius-topright: 24px;
+    -moz-background-clip: padding;
+    border-top-right-radius: 24px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) thead th,
+.text-page table:not(#wp-calendar):not(.variations) thead th {
+    background-color: #171422;
+    background-color: var(--black);
+    color: #fff;
+    color: var(--white);
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-family: var(--font-headers), serif;
+    font-weight: 700;
+    text-transform: none;
+}
+.comment-text table:not(#wp-calendar):not(.variations) thead th h1,
+.text-page table:not(#wp-calendar):not(.variations) thead th h1,
+.comment-text table:not(#wp-calendar):not(.variations) thead th h2,
+.text-page table:not(#wp-calendar):not(.variations) thead th h2,
+.comment-text table:not(#wp-calendar):not(.variations) thead th h3,
+.text-page table:not(#wp-calendar):not(.variations) thead th h3,
+.comment-text table:not(#wp-calendar):not(.variations) thead th h4,
+.text-page table:not(#wp-calendar):not(.variations) thead th h4,
+.comment-text table:not(#wp-calendar):not(.variations) thead th h5,
+.text-page table:not(#wp-calendar):not(.variations) thead th h5,
+.comment-text table:not(#wp-calendar):not(.variations) thead th h6,
+.text-page table:not(#wp-calendar):not(.variations) thead th h6 {
+    text-transform: none;
+}
+.comment-text table:not(#wp-calendar):not(.variations) thead th a,
+.text-page table:not(#wp-calendar):not(.variations) thead th a {
+    color: #fff;
+    color: var(--white);
+}
+.comment-text table:not(#wp-calendar):not(.variations) thead + tbody:first-child tr:first-child td,
+.text-page table:not(#wp-calendar):not(.variations) thead + tbody:first-child tr:first-child td,
+.comment-text table:not(#wp-calendar):not(.variations) thead + tbody:first-child tr:first-child th,
+.text-page table:not(#wp-calendar):not(.variations) thead + tbody:first-child tr:first-child th {
+    border-top: 0;
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody th,
+.text-page table:not(#wp-calendar):not(.variations) tbody th,
+.comment-text table:not(#wp-calendar):not(.variations) tbody td,
+.text-page table:not(#wp-calendar):not(.variations) tbody td {
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody th:first-child,
+.text-page table:not(#wp-calendar):not(.variations) tbody th:first-child,
+.comment-text table:not(#wp-calendar):not(.variations) tbody td:first-child,
+.text-page table:not(#wp-calendar):not(.variations) tbody td:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody th,
+.text-page table:not(#wp-calendar):not(.variations) tbody th {
+    font-weight: 700;
+    background-color: #f4f2e9;
+    background-color: var(--gray);
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child td,
+.text-page table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child td,
+.comment-text table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child th,
+.text-page table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child th {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child > th,
+.text-page table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child > th {
+    background-color: #171422;
+    background-color: var(--black);
+    color: #fff;
+    color: var(--white);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    font-size: 18px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child th:first-child,
+.text-page table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child th:first-child {
+    -webkit-border-top-left-radius: 24px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius-topleft: 24px;
+    -moz-background-clip: padding;
+    border-top-left-radius: 24px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child th:last-child,
+.text-page table:not(#wp-calendar):not(.variations) tbody:first-child tr:first-child th:last-child {
+    -webkit-border-top-right-radius: 24px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius-topright: 24px;
+    -moz-background-clip: padding;
+    border-top-right-radius: 24px;
+}
+.comment-text table:not(#wp-calendar):not(.variations) tbody tr:nth-child(even) td,
+.text-page table:not(#wp-calendar):not(.variations) tbody tr:nth-child(even) td {
+    background: 0 0;
+}
+.comment-text table:not(#wp-calendar):not(.variations) td,
+.text-page table:not(#wp-calendar):not(.variations) td {
+    border: 1px solid var(--white);
+}
+@media (max-width: 768px) {
+    .comment-text table:not(#wp-calendar):not(.variations) thead th,
+    .text-page table:not(#wp-calendar):not(.variations) thead th {
+        font-size: 14px;
+    }
+    .comment-text table:not(#wp-calendar):not(.variations) th,
+    .text-page table:not(#wp-calendar):not(.variations) th,
+    .comment-text table:not(#wp-calendar):not(.variations) td,
+    .text-page table:not(#wp-calendar):not(.variations) td {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+}
+@media (max-width: 479px) {
+    .comment-text table:not(#wp-calendar):not(.variations) th,
+    .text-page table:not(#wp-calendar):not(.variations) th,
+    .comment-text table:not(#wp-calendar):not(.variations) td,
+    .text-page table:not(#wp-calendar):not(.variations) td {
+        font-size: 12px;
+        padding: 5px 7px;
+    }
+}
+.comment-text .social-big,
+.text-page .social-big {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+@media (max-width: 1199px) {
+    .ltx-blog-wrap + .div-sidebar,
+    .text-page + .div-sidebar {
+        margin-top: 80px;
+    }
+}

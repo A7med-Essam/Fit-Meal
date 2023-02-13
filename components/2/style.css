@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+.raduis {
+    border-radius: 14px;
+}
+
+.bg-main {
+    background-color: #8ec038;
+}
+
+.bg-main2 {
+    background-color: #da2424;
+}
+
+.bg-gray {
+    background-color: #f3f5ed;
+}
+
+.bg-dark2{
+    background-color:#292D35;
+}
+
+.text-main {
+    color: #8ec038;
+}
+
+.text-main2 {
+    color: #da2424;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.h5-header{
+    font-family: var(--font-headers),serif;
+    font-weight: 700;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.descr {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 2em;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.shadow2{
+    box-shadow: 0 0 40px rgb(0 0 0 / 8%);
+}
+
+.calcCalories{
+    border-top-right-radius:14px ;
+    border-bottom-right-radius:14px ;
+}
+
+@media all and (max-width:992px){
+    .calcCalories{
+        border-top-right-radius:0px ;
+        border-bottom-left-radius:14px ;
+        border-bottom-right-radius:14px ;
+    }
+}

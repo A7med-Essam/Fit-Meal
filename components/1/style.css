@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+.raduis {
+    border-radius: 14px;
+}
+
+.bg-main {
+    background-color: #8ec038;
+}
+
+.bg-main2 {
+    background-color: #da2424;
+}
+
+.bg-gray {
+    background-color: #f3f5ed;
+}
+
+.text-main {
+    color: #8ec038;
+}
+
+.text-main2 {
+    color: #da2424;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#nutrition {
+    background-image: url("../assets/Nutrition/veg_pattern_01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#nutrition .nutrition {
+    box-shadow: 0 9px 0px -4px #e3efcd9c, 0 17px 0px -7px rgba(236, 236, 236, 0.363);
+}
+#nutrition .left-side-img {
+    left: -70px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    z-index: -2;
+}
+#nutrition .right-side-img {
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -2;
+}
+#nutrition .header h6 {
+    font-family: "Sacramento";
+}
+#nutrition .header h2 {
+    font-family: "Franklin Gothic Medium";
+    font-size: 50px;
+}
+#nutrition .body .list-group {
+    width: 75%;
+    margin: auto;
+    flex-direction: row !important;
+}
+#nutrition .body .list-group .active {
+    color: #8ec038 !important;
+    border: 2px solid #8ec038 !important;
+}
+#nutrition .body .list-group a {
+    transition: color 0.5s;
+    margin: 0px 15px;
+}
+#nutrition .body .list-group a:hover {
+    color: #8ec038;
+}
+#nutrition .body #nav-tabContent button {
+    transition: background-color 0.5s;
+}
+#nutrition .body #nav-tabContent button:hover {
+    background-color: #222222;
+}
+
+@media all and (max-width: 1199px) {
+    #nutrition .body #nav-tabContent .content {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+@media all and (max-width: 767px) {
+    #nutrition .body .list-group {
+        flex-wrap: wrap;
+    }
+}
